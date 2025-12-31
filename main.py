@@ -43,9 +43,9 @@ except ValueError:
 ADMINS.append(OWNER)
 
 bot = Client("bot",    
-   bot_token="",    
-   api_id= ,    
-   api_hash= ""
+   bot_token="7998257759:AAFGOPn-12Mkjtz4uTbuEDNMkM9jNRRjK9c",    
+   api_id=29115102,    
+   api_hash= "1a331db2b00e9d2decaa9c7276449eb6"
 )
 
 @bot.on_message(filters.command(["started"]))    
@@ -302,5 +302,6 @@ async def account_login(bot: Client, m: Message):
         await m.reply_text(e)
         
 bot.run()
+
 
 
